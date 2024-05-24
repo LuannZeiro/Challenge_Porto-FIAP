@@ -1,0 +1,176 @@
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+h3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -50px;
+    color: #727375;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.dados, .dados2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: -225px;
+    margin-top: 50px;
+}
+
+.cliente, .fornecedor {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-width: 1px;
+    border-style: solid;
+    max-width: 500px;
+    margin-left: 680px;
+}
+
+input {
+    width: 500px;
+    height: 40px;
+}
+
+input[type=radio] {
+    width: 24px;
+}
+
+::-webkit-input-placeholder {
+    color: #01A1FD;
+    font: 12px verdana, arial, sans-serif;
+}
+
+p {
+    color: #727375; 
+}
+
+.esqueceu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 350px;
+    color: #727375;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.botaoentrar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.botaocadastrar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+button {
+    width: 400px;
+    height: 50px;
+    border: none;
+    background-color: #01A1FD;
+    color: white;
+    border-radius: 10px;
+}
+
+.npossui {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.nome, .cpf, .email, .senha {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Extra Pequeno (XS) - Telefones Pequenos: Menos de 576 pixels */
+@media (max-width: 575px) {
+    .logo, h3, .dados, .dados2, .esqueceu, .botaoentrar, .botaocadastrar, .npossui, .nome, .cpf, .email, .senha {
+        margin: 20px 0;
+        margin-left: auto;
+        flex-direction: column;
+    }
+    
+    input {
+        width: 100%;
+    }
+
+    button {
+        width: 100%;
+    }
+
+    .cliente, .fornecedor {
+        max-width: 100%;
+        margin-left: 0;
+    }
+}
+
+/* Pequeno (SM) - Telefones Médios e Tablets Pequenos: 576px a 767px */
+@media (min-width: 576px) and (max-width: 767px) {
+    .dados, .dados2, .esqueceu, .botaoentrar, .botaocadastrar, .npossui, .nome, .cpf, .email, .senha {
+        margin-left: auto;
+    }
+
+    input {
+        width: 100%;
+    }
+
+    button {
+        width: 100%;
+    }
+
+    .cliente, .fornecedor {
+        max-width: 100%;
+        margin-left: 0;
+    }
+}
+
+/* Médio (MD) - Tablets e Laptops: 768px a 991px */
+@media (min-width: 768px) and (max-width: 991px) {
+    .dados, .dados2, .esqueceu, .botaoentrar, .botaocadastrar, .npossui, .nome, .cpf, .email, .senha {
+        margin-left: 0;
+    }
+
+    input {
+        width: 100%;
+    }
+
+    button {
+        width: 100%;
+    }
+
+    .cliente, .fornecedor {
+        max-width: 100%;
+        margin-left: 0;
+    }
+}
+
+/* Grande (LG) - Desktops Médios: 992px a 1199px */
+@media (min-width: 992px) and (max-width: 1199px) {
+    .cliente, .fornecedor {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+/* Extra Grande (XL) - Desktops Grandes: 1200px ou mais */
+@media (min-width: 1200px) {
+    .cliente, .fornecedor {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
