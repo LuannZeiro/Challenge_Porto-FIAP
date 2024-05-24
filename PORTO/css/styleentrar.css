@@ -1,0 +1,88 @@
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+h3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -50px;
+    color: #727375;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.dados{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: -300px;
+    margin-top: 150px;
+}
+
+.login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.senha{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+input{
+    width: 500px;
+    height: 30px;
+}
+
+::-webkit-input-placeholder {
+    color: #01A1FD;
+    font: 12px verdana, arial, sans-serif;
+ }
+
+p{
+    color: #727375; 
+}
+
+.esqueceu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 350px;
+    color: #727375;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.botaoentrar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+.botaocadastrar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    
+}
+button{
+    width: 400px;
+    height: 50px;
+    border: none;
+    background-color: #01A1FD;
+    color: white;
+    border-radius: 10px;
+}
+
+.npossui{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
