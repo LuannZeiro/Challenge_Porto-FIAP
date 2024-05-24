@@ -1,0 +1,96 @@
+.topo{
+    background-color: #01A1FD;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    padding-left: 100px;
+    margin-top: -80px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    background-color: #01A1FD;
+    margin-top: -10px;
+    width: 2000px;
+    margin-left: -10px;
+}
+h3{
+    color: #727375;
+    margin-left: 180px;
+}
+.espaco{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 650px;
+    width: 1500px;
+    background-color: #AEAEAE;
+    margin-left: 180px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border: 1px solid #727375;
+}
+input{
+    width: 1500px;
+    height: 25px;
+}
+.texto{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+@media (min-width: 992px) and (max-width: 1199px){
+    .espaco{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 400px;
+        width: 800px;
+        background-color: #AEAEAE;
+        border-top-left-radius: 30px;
+        border-top-right-radius: 30px;
+        border: 1px solid #727375;   
+    } 
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+    .espaco{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 400px;
+        width: 800px;
+        background-color: #AEAEAE;
+        border-top-left-radius: 30px;
+        border-top-right-radius: 30px;
+        border: 1px solid #727375;   
+    } 
+}
+@media (min-width: 576px) and (max-width: 767px){
+    .espaco{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 800px;
+        width: 600px;
+        background-color: #AEAEAE;
+        border-top-left-radius: 30px;
+        border-top-right-radius: 30px;
+        border: 1px solid #727375;   
+    } 
+}
+@media (max-width: 575px){
+    .espaco{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 800px;
+        width: 600px;
+        background-color: #AEAEAE;
+        border-top-left-radius: 30px;
+        border-top-right-radius: 30px;
+        border: 1px solid #727375;   
+    } 
+}
